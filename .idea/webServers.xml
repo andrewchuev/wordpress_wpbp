@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8a428458-495a-42ba-b70f-628a3dbc9a73" name="wpbp.reslab.tech" url="https://wpbp.reslab.tech">
+        <fileTransfer host="wpbp.reslab.tech" port="2231" rootFolder="/var/www/wpbp.reslab.tech" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="2231" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
