@@ -1,6 +1,3 @@
-(function( $ ) {
-	'use strict';
-
-
-
-})( jQuery );
+jQuery(document).ready(function ($) {
+	console.log('plugin-name-common.js');
+});
