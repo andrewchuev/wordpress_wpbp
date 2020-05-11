@@ -6,10 +6,22 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Wordpress Plugin Boilerplate Generator</title>
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" id="font-awesome-css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
     <link href="style.css" rel="stylesheet" id="style-css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166110323-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-166110323-1');
+    </script>
+
 </head>
 <body>
 <div class="container register">
@@ -53,26 +65,23 @@
 
                                 <input type="submit" class="btnBuild" value="Build plugin"/>
                             </div>
-
                         </div>
                     </form>
+                    <div class="text-left" style="margin: -50px 0 20px 100px;">
+                        <i class="fa fa-check" aria-hidden="true"></i> Include ACF support <br>
+                        <i class="fa fa-check" aria-hidden="true"></i> Add Common class <br>
+                        <i class="fa fa-check" aria-hidden="true"></i> Comments are cleared <br>
+                    </div>
                 </div>
-
             </div>
-
         </div>
-
-
     </div>
-
-
-
 </div>
 
 <div class="container">
     <div class="row">
         <div class="col-md-12 text-center" style="font-size: 0.8em">
-            © <?= date( 'Y' ) ?> Chuev Research Lab
+            © <?= date( 'Y' ) ?> <a href="mailto:andrew.chuev@gmail.com">Chuev Research Lab</a>
         </div>
     </div>
 </div>
