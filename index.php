@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Wordpress Plugin Boilerplate Generator">
+    <meta name="robots" content="index, follow">
     <title>Wordpress Plugin Boilerplate Generator</title>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" id="font-awesome-css">
@@ -81,7 +83,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12 text-center" style="font-size: 0.8em">
-            © <?= date( 'Y' ) ?> <a href="mailto:andrew.chuev@gmail.com">Chuev Research Lab</a>
+            © <?= date( 'Y' ) ?> <a href="https://github.com/andrewchuev">Chuev Research Lab</a>
         </div>
     </div>
 </div>
