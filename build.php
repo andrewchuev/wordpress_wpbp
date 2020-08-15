@@ -1,5 +1,8 @@
 <?php
 
+/*error_reporting(E_ALL);
+ini_set('display_errors', 1);*/
+
 require_once __DIR__ . '/file-functions.php';
 
 $input  = __DIR__ . '/input';
@@ -18,7 +21,7 @@ if (!empty($_POST['plugin_slug'])) {
 	$params = [
 		'author_name'  => 'Andrew A. Chuev',
 		'author_email' => 'andrew.chuev@gmail.com',
-		'author_uri'   => 'https://reslab.tech',
+		'author_uri'   => 'https://reslab.cc',
 		'plugin_slug'  => 'epb2',
 		'plugin_name'  => 'Express Pay Buttons',
 		'plugin_uri'   => 'https://academweb.com/epb/'
@@ -27,7 +30,14 @@ if (!empty($_POST['plugin_slug'])) {
 
 $plugin_slug = $params['plugin_slug'];
 
-@rrmdir( "$output/" );
+
+//echo "is dir " ;
+//var_dump(is_dir("$output/"));
+
+if (is_dir("$output/"))
+	rrmdir( "$output/" );
+
+
 
 rcopy( $input, $output );
 rrename( $output, $params );

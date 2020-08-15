@@ -1,4 +1,4 @@
-<?php $debug = 0 ?>
+<?php $debug = 1 ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -15,14 +15,16 @@
 
     <link href="style.css" rel="stylesheet" id="style-css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166110323-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
 
-        gtag('config', 'UA-166110323-1');
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175506445-1"></script>
+    <script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-175506445-1');
     </script>
+
 
 </head>
 <body>

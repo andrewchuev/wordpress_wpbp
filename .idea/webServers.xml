@@ -3,11 +3,10 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="8a428458-495a-42ba-b70f-628a3dbc9a73" name="wpbp.reslab.tech" url="https://wpbp.reslab.tech">
-        <fileTransfer host="wpbp.reslab.tech" port="2231" rootFolder="/var/www/wpbp.reslab.tech" accessType="SFTP">
+        <fileTransfer rootFolder="/var/www/wpbp.reslab.cc" accessType="SFTP" host="wpbp.reslab.cc" port="2231" sshConfigId="9fc8171b-f7a7-4cb5-aa48-7726a9bec420" sshConfig="wpbp.reslab.cc">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="2231" />
         </fileTransfer>
       </webServer>
     </option>

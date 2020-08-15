@@ -2,8 +2,7 @@
 <project version="4">
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="wpbp.reslab.tech" id="83b09a27-8fd1-4d01-8ecb-f5816ab79164" port="2231" customName="wpbp.reslab.tech" nameFormat="CUSTOM" username="wpbp" />
-      <sshConfig authType="PASSWORD" host="wpbp.reslab.tech" id="cc5ef361-6c9e-49fd-b8f8-557c9f6f8af0" port="2231" customName="wpbp.reslab.tech" nameFormat="CUSTOM" username="wpbp" />
+      <sshConfig authType="PASSWORD" host="wpbp.reslab.cc" id="9fc8171b-f7a7-4cb5-aa48-7726a9bec420" port="2231" customName="wpbp.reslab.cc" nameFormat="CUSTOM" username="wpbp" />
     </configs>
   </component>
 </project>
