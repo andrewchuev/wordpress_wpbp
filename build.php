@@ -8,7 +8,7 @@ require_once __DIR__ . '/file-functions.php';
 $input  = __DIR__ . '/input';
 $output = __DIR__ . '/output';
 
-if (!empty($_POST['plugin_slug'])) {
+if ( ! empty( $_POST['plugin_slug'] ) ) {
 	$params = [
 		'author_name'  => $_POST['author_name'],
 		'author_email' => $_POST['author_email'],
@@ -34,16 +34,16 @@ $plugin_slug = $params['plugin_slug'];
 //echo "is dir " ;
 //var_dump(is_dir("$output/"));
 
-if (is_dir("$output/"))
+if ( is_dir( "$output/" ) ) {
 	rrmdir( "$output/" );
-
+}
 
 
 rcopy( $input, $output );
 rrename( $output, $params );
-rename( "$output/plugin-name", "$output/".$params['plugin_slug'] );
+rename( "$output/plugin-name", "$output/" . $params['plugin_slug'] );
 zip( "$output/", "$output/$plugin_slug/$plugin_slug.zip" );
-download_zip("$output/$plugin_slug/", "$plugin_slug.zip" );
+download_zip( "$output/$plugin_slug/", "$plugin_slug.zip" );
 
 
 function replace_data( $path, $params ) {
